@@ -8,6 +8,7 @@ const Portfolio = () => {
   const [projects, setProjects] = useState(data)
   const categories = data.map(item => item.category)
   const uniqueCategories = ['all', ...new Set(categories)]
+  
   const filterProjectHandler = (category)=>{
     if(category === "all"){
       setProjects(data)
