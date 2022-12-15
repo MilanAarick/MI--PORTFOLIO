@@ -44,7 +44,7 @@ const App = () => {
 
   useEffect(()=>{
     const checkYPosition = setInterval(floatingNavToggleHandler, 2500);
-    console.log('running', checkYPosition)
+    
 
     //SideEffect cleanup function
     return () => clearInterval(checkYPosition)
