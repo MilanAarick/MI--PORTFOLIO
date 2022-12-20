@@ -48,7 +48,7 @@ const App = () => {
 
     //SideEffect cleanup function
     return () => clearInterval(checkYPosition)
-  })//[siteYPosition]
+  }, [siteYPosition])//[siteYPosition]
 
 
 
