@@ -14,10 +14,10 @@ const data = [
         id: 1,
         category: 'uiux',
         image: Image1,
-        title: " Splash",
-        desc: "A responsive web page design called splash adapts to different screen sizes and devices, providing a user-friendly and visually appealing website. It automatically adjusts layout, text, and images for an optimal viewing experience.",
-        demo: '#',
-        github: 'https://github.com/MilanAarick/splash'
+        title: " Smart Luncher",
+        desc: "A responsive web page design called Smart luncher adapts to different screen sizes and devices, providing a user-friendly and visually appealing website. It automatically adjusts layout, text, and images for an optimal viewing experience.",
+        demo: 'https://bitluncher.pages.dev/',
+        github: 'https://github.com/MilanAarick/S-L-Landing-Page'
     },
     {
         id: 2,
